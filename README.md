@@ -5,6 +5,7 @@ Device RTX2080Ti
 |Index| Model Name |Backbone |Input Size | From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:---------:|:------:|:---:|:-:|:---:|:-------:|
 |1|YOLOv4|CSPDarknet53|416×416|NO(COCO pretrain)|91.41%|79.0|59.628|256.2|
+|2|YOLOv4|CSPResNeXt50|416×416|NO(COCO pretrain)| |||226.2|
 |2|YOLOv3|Efficientnet_b0|416×416|YES|80.74%|67.1|3.677|18.9|
 
 
