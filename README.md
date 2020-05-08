@@ -3,6 +3,16 @@
 Device RTX2080Ti
 
 Input Size 416×416
+
+
+YOLOv3 FPS 95.4
+
+YOLOv3 ARSF FPS 92.4
+
+YOLOv3 ARSF(lite) FPS 107.2
+
+YOLOv3 ARSF(lite+) FPS 112.1
+
 ## NWPU-VHR10
 
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
