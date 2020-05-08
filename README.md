@@ -3,7 +3,7 @@
 Device RTX2080Ti
 
 Input Size 416×416
-## Solid YOLOv3/v4-baseline on NWPU-VHR10
+## NWPU-VHR10
 
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
@@ -31,8 +31,8 @@ mAP Details*
 |mAP               |93.70|92.27|80.74|91.45|84.73|86.50|
 
 
-## Solid YOLOv3/v4-baseline on DIOR
+## DIOR
 
 
 
-## Solid YOLOv3/v4-baseline on VisDrone2019
+## VisDrone2019
