@@ -7,6 +7,8 @@ Input Size 416×416
 
 YOLOv3 FPS 95.4
 
+YOLOv3-spp FPS 94.0
+
 YOLOv3 ARSF FPS 92.4
 
 YOLOv3 ARSF(lite) FPS 107.2
