@@ -2,21 +2,8 @@
 ## Platform
 Device RTX2080Ti
 
-Input Size 416×416
-
-
-YOLOv3 FPS 95.4
-
-YOLOv3-spp FPS 94.0
-
-YOLOv3 ARSF FPS 92.4
-
-YOLOv3 ARSF(lite) FPS 107.2
-
-YOLOv3 ARSF(lite+) FPS 112.1
-
 ## NWPU-VHR10
-
+Input Size 416×416
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
 |1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|93.70%|79.0|59.628|256.2|
@@ -44,7 +31,7 @@ mAP Details*
 
 
 ## DIOR
-Input Size 512x512
+Input Size 416×416
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
 |1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|%||59.701|256.4|
