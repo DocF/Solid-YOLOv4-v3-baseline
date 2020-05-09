@@ -51,7 +51,7 @@ mAP Details*
 Input Size 512x512
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
-|1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|35.74%|59.6|59.701|256.4|
+|1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|35.74%|59.6|59.628|256.2|
 
 mAP Details*
 | Index| 1|
