@@ -38,23 +38,26 @@ Input Size 416×416
 
 
 ## VisDrone2019
-Input Size 512x512
+Index 1 Input Size 512x512
+
+Index 2 Input Size 608×608
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
 |1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|35.74%|59.6|59.628|256.2|
+|1|YOLOv3|CSPResNeXt50(PANet-SPP)|NO(COCO pretrained)|33.15%|49.1|99.519|226.6|
 
 mAP Details*
-| Index| 1|
-|:---:|:---:|
-|awning_tricycle   |21.57|
-|bicycle           |12.40|
-|bus               |61.09|
-|car               |74.05|
-|motor             |30.47|
-|pedestrian        |28.30|
-|people            |17.43|
-|tricycle          |23.84|
-|truck             |46.81|
-|van               |41.41|
-|mAP               |35.74|
+| Index| 1|2|
+|:---:|:---:|:---:|
+|awning_tricycle   |21.57|19.90|
+|bicycle           |12.40|11.12|
+|bus               |61.09|57.15|
+|car               |74.05|72.48|
+|motor             |30.47|25.01|
+|pedestrian        |28.30|27.17|
+|people            |17.43|17.97|
+|tricycle          |23.84|22.66|
+|truck             |46.81|40.14|
+|van               |41.41|37.92|
+|mAP               |35.74|33.15|
 
