@@ -35,6 +35,7 @@ Input Size 416×416
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
 |1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|76.66%||59.701|256.4|
+|1|YOLOv3|CSPResNeXt50(PANet-SPP)|NO(COCO pretrained)|69.16%|75.8|46.662|226.8|
 
 
 ## VisDrone2019
