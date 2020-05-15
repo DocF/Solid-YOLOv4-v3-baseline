@@ -14,28 +14,13 @@ Input Size 416×416
 |6|YOLOv3-tiny-3l|-|NO(COCO pretrained)|86.50%|381.9|7.132|36.1|
 
 
-mAP Details*
-| Index| 1|2|3|4|5|6|
-|:---:|:---:|:-:|:-:|:-:|:-:|:-:|
-|airplane          |99.98|99.77|98.16|99.95|96.00|98.95|
-|ship              |96.48|98.68|83.25|95.34|81.40|82.87|
-|storage_tank      |95.58|98.63|83.40|91.20|81.24|97.62|
-|baseball_diamond  |99.38|97.80|97.83|99.05|98.19|98.69|
-|tennis_court      |88.96|75.11|74.13|90.10|75.33|77.98|
-|basketball_court  |95.13|97.82|72.43|95.54|90.93|84.30|
-|ground_track_field|98.52|98.43|95.59|99.63|99.58|98.29|
-|harbor            |90.83|87.60|91.69|91.06|88.75|81.21|
-|bridge            |85.73|83.92|75.15|83.11|92.16|83.37|
-|vehicle           |86.40|84.92|35.78|69.57|43.72|61.71|
-|mAP               |93.70|92.27|80.74|91.45|84.73|86.50|
-
 
 ## DIOR
 Input Size 416×416
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
 |1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|76.66%||59.701|256.4|
-|1|YOLOv3|CSPResNeXt50(PANet-SPP)|NO(COCO pretrained)|69.16%|75.8|46.662|226.8|
+|2|YOLOv3|CSPResNeXt50(PANet-SPP)|NO(COCO pretrained)|69.16%|75.8|46.662|226.8|
 
 
 ## VisDrone2019
@@ -45,20 +30,6 @@ Index 2 Input Size 608×608
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
 |:---:|:---------: |:-------:|:------:|:---:|:-:|:---:|:-------:|
 |1|YOLOv4|CSPDarknet53|NO(COCO pretrained)|35.74%|59.6|59.628|256.2|
-|1|YOLOv3|CSPResNeXt50(PANet-SPP)|NO(COCO pretrained)|33.15%|49.1|99.519|226.6|
+|2|YOLOv3|CSPResNeXt50(PANet-SPP)|NO(COCO pretrained)|33.15%|49.1|99.519|226.6|
 
-mAP Details*
-| Index| 1|2|
-|:---:|:---:|:---:|
-|awning_tricycle   |21.57|19.90|
-|bicycle           |12.40|11.12|
-|bus               |61.09|57.15|
-|car               |74.05|72.48|
-|motor             |30.47|25.01|
-|pedestrian        |28.30|27.17|
-|people            |17.43|17.97|
-|tricycle          |23.84|22.66|
-|truck             |46.81|40.14|
-|van               |41.41|37.92|
-|mAP               |35.74|33.15|
 
