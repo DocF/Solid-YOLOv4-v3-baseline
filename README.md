@@ -2,6 +2,11 @@
 ## Platform
 Device RTX2080Ti
 
+## Dataset
+- NWPU-VHR10
+- DIOR
+- VisDrone2019
+
 ## NWPU-VHR10
 Input Size 416×416
 |Index| Model Name |Backbone |From Scratch|mAP* |FPS|BFlops|Model Size(MB)|
